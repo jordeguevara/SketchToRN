@@ -53,7 +53,6 @@ const formatAccuracy = accuracyString => {
 
 export function extractBusinessData(data) {
   return data.map(val => {
-    console.log(Number(val.playerStats.accuracy).toFixed(2));
     return {
       map: gameMap[val.map] || val.map,
       type: modeMap[val.mode] || val.mode,

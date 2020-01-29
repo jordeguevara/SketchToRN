@@ -65,4 +65,4 @@ This project uses the following third-party dependencies:
     "react-native-screens": "^2.0.0-alpha.32",
 
 ### Screenshot
-<img width="1331" alt="Screen Shot 2020-01-29 at 1 34 54 AM" src="https://user-images.githubusercontent.com/34716202/73345276-ac079000-4238-11ea-98b5-4294061df571.png">
+<img width="1089" alt="Screen Shot 2020-01-29 at 7 48 57 AM" src="https://user-images.githubusercontent.com/34716202/73372402-ff470600-426b-11ea-9640-580b8b9e6300.png">
