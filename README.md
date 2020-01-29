@@ -28,12 +28,12 @@ EVALUATION CRITERIA
 1.clone repo
 
 ```
-git clone https://github.com/jordeguevara/ActivisionRN.git
+git clone https://github.com/jordeguevara/takehome.git
 
 ```
 
 ```
-cd ActivisionRN/
+cd takehome/
 ```
 
 
