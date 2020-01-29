@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import GameResult from '../GameResult';
 import {Colors, Typography} from '../../styles';
-
+import {normalize} from '../../util';
 class CellHeader extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -23,7 +23,7 @@ class CellHeader extends React.PureComponent {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 4,
+    flex: 1,
     flexDirection: 'row',
     backgroundColor: Colors.CellHeaderColor,
   },
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   },
   gameMap_text: {
     fontFamily: Typography.FontFamily,
-    fontSize: 22,
+    fontSize: normalize(20),
     color: Colors.TextTitleColor,
     fontWeight: Typography.Bold,
   },

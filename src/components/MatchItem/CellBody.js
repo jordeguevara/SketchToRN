@@ -43,7 +43,7 @@ class CellBody extends React.PureComponent {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 6,
+    flex: 1,
     flexDirection: 'row',
     backgroundColor: Colors.CellBodyColor,
   },
