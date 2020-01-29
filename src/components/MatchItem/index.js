@@ -21,6 +21,7 @@ class MatchItem extends React.PureComponent {
     );
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     marginVertical: 20,

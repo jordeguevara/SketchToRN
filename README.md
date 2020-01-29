@@ -54,7 +54,7 @@ This project uses the following third-party dependencies:
 
     "react-navigation-stack": "^2.0.16"  
 
-   "@react-native-community/masked-view": "^0.1.6",
+    "@react-native-community/masked-view": "^0.1.6",
 
     "react-native-gesture-handler": "^1.5.3",
 

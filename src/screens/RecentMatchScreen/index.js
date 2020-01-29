@@ -5,7 +5,7 @@ import {token, extractBusinessData, getNestedProperty} from '../../util';
 const RecentMatchesScreen: () => React$Node = () => {
   let matchData = [];
   let url =
-    'https://profile.callofduty.com/papi-client/crm/cod/v2/title/mw/platform/psn/gamer/smackmeister/matches/days/50';
+    'https://profile.callofduty.com/papi-client/crm/cod/v2/title/mw/platform/psn/gamer/smackmeister/matches/days/100';
   const config = {
     headers: {
       'Content-Type': 'application/json',

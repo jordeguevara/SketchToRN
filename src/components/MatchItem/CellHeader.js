@@ -2,18 +2,24 @@ import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import GameResult from '../GameResult';
 import {Colors, Typography} from '../../styles';
-const CellHeader = props => {
-  const {name = '', type = '', result = ''} = props;
-  return (
-    <View style={styles.container}>
-      <View style={styles.subContainer}>
-        <Text style={styles.gameMap_text}>{name.toUpperCase()}</Text>
-        <Text style={styles.gameType_text}>{type.toUpperCase()}</Text>
+
+class CellHeader extends React.PureComponent {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    const {name = '', type = '', result = ''} = this.props;
+    return (
+      <View style={styles.container}>
+        <View style={styles.subContainer}>
+          <Text style={styles.gameMap_text}>{name.toUpperCase()}</Text>
+          <Text style={styles.gameType_text}>{type.toUpperCase()}</Text>
+        </View>
+        <GameResult result={result} />
       </View>
-      <GameResult result={result} />
-    </View>
-  );
-};
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -32,6 +38,7 @@ const styles = StyleSheet.create({
     fontWeight: Typography.Bold,
   },
   gameType_text: {
+    marginVertical: 1,
     fontSize: 18,
     fontWeight: Typography.Bold,
     color: Colors.GoldenColor,
