@@ -37,7 +37,6 @@ cd takehome/
 ```
 
 
-
 ```
 yarn install
 ```
