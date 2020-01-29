@@ -45,9 +45,15 @@ export const modeMap = {
   war: 'war',
   war_hc: 'war hardcore',
 };
+//will remove trailing 0s and only return decimal by itself
+const formatAccuracy = accuracyString => {
+  let accuracy = accuracyString.split('.')[1];
+  return `.${accuracy}`;
+};
 
 export function extractBusinessData(data) {
   return data.map(val => {
+    console.log(Number(val.playerStats.accuracy).toFixed(2));
     return {
       map: gameMap[val.map] || val.map,
       type: modeMap[val.mode] || val.mode,
@@ -55,8 +61,8 @@ export function extractBusinessData(data) {
       deaths: val.playerStats && val.playerStats.deaths,
       accuracy:
         val.playerStats && val.playerStats.accuracy
-          ? Number(val.playerStats.accuracy).toFixed(2)
-          : 0.0,
+          ? formatAccuracy(Number(val.playerStats.accuracy).toFixed(2))
+          : '0.0',
       result: val.result,
     };
   });
