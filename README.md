@@ -46,7 +46,17 @@ yarn android
 
 ## Dependencies
 
-This codebases utilzes React-Navgation 
+
+This project uses the following third-party dependencies:
+    "react-navigation": "^4.0.10", - For Navigation/Header Styling
+    //All other libraries are dependencies that react-navigation uses under the hood
+    "react-navigation-stack": "^2.0.16"  
+   "@react-native-community/masked-view": "^0.1.6",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-screens": "^2.0.0-alpha.32",
 
 ### Screenshot
-<img width="1210" alt="Screen Shot 2020-01-29 at 12 21 48 AM" src="https://user-images.githubusercontent.com/34716202/73344442-3c44d580-4237-11ea-8412-0c55f1246cbe.png">
+
+<img width="1210" alt="Screen Shot 2020-01-29 at 12 21 48 AM" src="https://user-images.githubusercontent.com/34716202/73344668-9ba2e580-4237-11ea-966a-4928767c6c54.png">
