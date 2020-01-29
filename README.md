@@ -25,6 +25,19 @@ EVALUATION CRITERIA
  
 # How to run
 
+1.clone repo
+
+```
+git clone https://github.com/jordeguevara/ActivisionRN.git
+
+```
+
+```
+cd ActivisionRN/
+```
+
+
+
 ```
 yarn install
 ```
@@ -35,7 +48,7 @@ cd ios && pod install
 ```
 
 ```
-yarn ios
+cd .. && yarn ios
 ```
 
 
@@ -48,6 +61,7 @@ yarn android
 
 
 This project uses the following third-party dependencies:
+
     "react-navigation": "^4.0.10", - For Navigation/Header Styling
 
     //All other libraries are dependencies that react-navigation uses under the hood
