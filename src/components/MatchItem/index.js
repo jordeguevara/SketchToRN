@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Dimensions, View} from 'react-native';
 import CellHeader from './CellHeader';
 import CellBody from './CellBody';
+import {Colors} from '../../styles';
 
 class MatchItem extends React.PureComponent {
   constructor(props) {
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
     height: 180,
     width: Dimensions.get('window').width * 0.95,
-    backgroundColor: '#191919',
+    backgroundColor: Colors.PrimaryColor,
     shadowColor: '#000',
     shadowOffset: {width: 0, height: 1},
     shadowOpacity: 0.3,
