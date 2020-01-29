@@ -49,12 +49,19 @@ yarn android
 
 This project uses the following third-party dependencies:
     "react-navigation": "^4.0.10", - For Navigation/Header Styling
+
     //All other libraries are dependencies that react-navigation uses under the hood
+
     "react-navigation-stack": "^2.0.16"  
+
    "@react-native-community/masked-view": "^0.1.6",
+
     "react-native-gesture-handler": "^1.5.3",
+
     "react-native-reanimated": "^1.7.0",
+
     "react-native-safe-area-context": "^0.6.2",
+    
     "react-native-screens": "^2.0.0-alpha.32",
 
 ### Screenshot
